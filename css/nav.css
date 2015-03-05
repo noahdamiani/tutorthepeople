@@ -200,7 +200,8 @@ body {
   border-top: 5px solid #477dca;
   font-family: Raleway, sans-serif;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  overflow-x: hidden; }
 
 header {
   max-width: 68em;

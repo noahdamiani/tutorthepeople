@@ -6,8 +6,11 @@ if (Meteor.isClient) {
     logo: '<img src="http://tutorthepeople.com/wp-content/uploads/tutorthepeoplelogo.png">'
   });
 
-  Template.featuredCarousel.rendered = function() {
-    $('.owl-carousel').owlCarousel();
+  Template.carousel.rendered = function() {
+    $('#carousel').slick({
+      dots: true,
+      arrows: true
+    });
   }
 
 }
