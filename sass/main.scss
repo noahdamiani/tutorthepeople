@@ -1,9 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,800,700);
 @import "../components/bourbon/bourbon";
 @import "../components/neat/neat";
 @import "../components/bitters/base";
+@import "variables";
 
-section.test-grid {
-  @include outer-container;
-  aside { @include span-columns(3); }
-  article { @include span-columns(9); }
+body {
+	border-top: 5px solid $blue;
+	font-family: $raleway;
+	margin: 0;
+	padding: 0;
 }
+

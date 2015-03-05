@@ -202,4 +202,38 @@ body {
   margin: 0;
   padding: 0; }
 
-/*# sourceMappingURL=main.css.map */
+header {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px; }
+  header::after {
+    clear: both;
+    content: "";
+    display: table; }
+  header .logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    header .logo:last-child {
+      margin-right: 0; }
+    header .logo img {
+      height: 120px; }
+  header nav.nav {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%;
+    margin-top: 60px; }
+    header nav.nav:last-child {
+      margin-right: 0; }
+    header nav.nav ul {
+      text-align: right; }
+      header nav.nav ul li {
+        display: inline-block;
+        margin-right: 5%; }
+        header nav.nav ul li a {
+          font-weight: 600; }
+
+/*# sourceMappingURL=nav.css.map */
