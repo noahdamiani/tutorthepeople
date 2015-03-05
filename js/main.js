@@ -5,6 +5,11 @@ if (Meteor.isClient) {
   Template.header.helpers({
     logo: '<img src="http://tutorthepeople.com/wp-content/uploads/tutorthepeoplelogo.png">'
   });
+
+  Template.featuredCarousel.rendered = function() {
+    $('.owl-carousel').owlCarousel();
+  }
+
 }
 
 if (Meteor.isServer) {
